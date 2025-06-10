@@ -13,7 +13,8 @@ from include.stock_market.tasks import _get_stock_prices,_store_prices,_get_form
 
 import requests
 
-symbol='NVDA'
+symbol='AAPL'
+
 @dag(
     start_date=datetime(2025,6,4),
     schedule='@daily',
